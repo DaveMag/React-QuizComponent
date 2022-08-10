@@ -12,7 +12,7 @@ class Quiz extends React.Component {
         return (
         <div>
             <div className='QuizQuestion'>
-                {JSON.stringify(quizData.quiz_questions[1].instruction_text)}
+                {quizData.quiz_questions[0].instruction_text}
             </div>
         </div>
         )
